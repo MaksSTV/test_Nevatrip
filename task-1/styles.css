@@ -1,0 +1,439 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    margin-bottom: 26px;
+}
+
+.trips{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 17px;
+    margin-left: 17px;
+}
+
+.trip-1,
+.trip-2,
+.trip-3{
+    border: 0.3px solid #828282;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.mobile-hidden{
+    display: none;
+}
+
+.image-trip-1,
+.image-trip-2{
+    background-image: url(/task-1/images/sankt-peterburg-piter-st-3495.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px 16px 0px 0px;
+    height: 220px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.image-trip-1-text{
+    position: absolute;
+    top: 67px;
+    background-color:#FED74B;
+    padding: 8px 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #3E3E3E;
+}
+
+.description{
+    display: none;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 12px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #9E9E9E;
+}
+
+.text-time{
+    margin-left: 9px;
+}
+
+.sale{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+    
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 22px;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 13px;
+    margin-left: 12px;
+}
+
+.item-text{ 
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B4B4B;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-text_last{
+    margin-bottom: 7px;
+}
+
+.cruises{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.cruise-time--1,
+.cruise-time--2,
+.cruise-time--3,
+.cruise-time--4,
+.cruise-time--5,
+.cruise-time--6,
+.cruise-time--7,
+.cruise-time--8{
+    background: #D9E8FF;
+    border-radius: 11px;
+    padding: 2px 15px;
+    margin-left: 2%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+}
+
+/*.cruise-time--4,
+.cruise-time--6,
+.cruise-time--7{
+    display: none;
+}*/
+
+.hidden-list {
+    display: none;
+    position: absolute;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.hidden-list-item {
+    margin-top: 5px;
+    margin-left: -13px;
+}
+
+
+
+.cruise-time--4:hover > .hidden-list {
+    display:inherit;
+}
+
+
+.hidden-list li {
+    
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+.price{
+    margin-left: 14px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-price{
+    display: flex;
+    align-items: center;
+}
+
+.main-price-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    color: #000000;
+
+    margin: 0;
+}
+
+.price-about{
+    display: flex;
+    flex-direction: row;
+    gap: 14%;
+    margin-bottom: 20px;
+}
+
+.second-price-text{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.about{
+    background: #FED74B;
+    border: 0.5px solid #CBA500;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+}
+
+.about-text{
+    /*padding: 4px 45px;*/
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+}
+
+.image-trip-2-text-2{
+    display: none;
+}
+
+.image-trip-2-text-1{
+    position: absolute;
+    
+    background: #7553FF;
+    border-radius: 15px 0px 12px;
+    padding: 8px 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.cruise-time--1:hover,
+.cruise-time--2:hover,
+.cruise-time--3:hover,
+.cruise-time--4:hover,
+.cruise-time--5:hover,
+.cruise-time--6:hover,
+.cruise-time--7:hover,
+.cruise-time--8:hover {
+	background: #6BA6FF;
+	color: #FFFFFF;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 1000px){
+
+    .mobile-hidden{
+        display: block;
+    }
+
+    .trip-1,
+    .trip-2,
+    .trip-3{
+        display: flex;
+        flex-direction: row;
+        max-width: 1070px;
+    }
+
+    
+
+    .image-trip-1{
+        background-image: url(/task-1/images/AdobeStock_168443825\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 16px 0px 0px 16px;
+        width: 470px;
+        height: 370px;
+        margin-bottom: 0px;
+    }
+
+    .image-trip-2{
+        background-image: url(/task-1/images/ekskursii-po-spb-na-avtobuse\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 16px 0px 0px 16px;
+        width: 470px;
+        height: 370px;
+        margin-bottom: 0px;
+    }
+
+    .image-trip-3{
+        background-image: url(/task-1/images/music\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 16px 0px 0px 16px;
+        width: 470px;
+        height: 370px;
+        margin-bottom: 0px;
+    }
+
+    .main-trip-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale{
+        display:none;
+    }
+
+    .description{
+        display: block;
+        order: -1;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 34px;
+        color: #000000;
+        margin-top: 16px;
+    }
+
+    .description,
+    .time,
+    .table,
+    .price-about{
+        margin-left: 23px;
+    }
+
+    .price-about{
+        margin-bottom: 0;
+    }
+
+    .list-item{
+        margin-left: 0;
+    }
+
+    .text-time{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .list-item_last{
+        margin-bottom: 9px;
+    }
+
+    .last{
+        flex-direction: row;
+    }
+
+    .item-text_last {
+        margin-bottom: 0;
+    }
+
+    .cruises{
+        margin-left: 10px;
+    }
+
+    .cruise-time--4{
+        display: block;
+    }
+
+    .cruise-time--5{
+        display: none;
+    }
+
+    .cruise-time--1, 
+    .cruise-time--2, 
+    .cruise-time--3, 
+    .cruise-time--4, 
+    .cruise-time--5, 
+    .cruise-time--6, 
+    .cruise-time--7 {
+        padding: 2px 12px;
+    }
+
+    .image-trip-1-text{
+        color: #FFFFFF;
+        background-color: #099CE8;
+    }
+
+    
+
+    .image-trip-2-text-1{
+        display: none;
+    }
+    
+    .image-trip-2-text-2{
+        display: block;
+        position: relative;
+        top: 60px;
+        max-width: 100px;
+        text-align: center;
+        background-color:#FED74B;
+        padding: 8px 17px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #3E3E3E;
+    }
+}
+
+@media screen and (min-width: 1045px){
+    .list-item_last{
+        margin-bottom: 25px;
+    }
+}
+
+
