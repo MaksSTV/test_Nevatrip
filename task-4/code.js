@@ -320,6 +320,12 @@ function price() {
         Теплоход прибудет из В в А: ${ getIndex(index_from_to+6)}.`);
     }
 
+    let clear_1 = document.getElementById('route');
+    clear_1.selectedIndex = 0
+    let clear_2 = document.getElementById('time');
+    clear_2.selectedIndex = 0
+    let clear_3 = document.getElementById('time_from_to');
+    clear_3.selectedIndex = 0
 }
 
 
