@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/task-4/styles.css" />
+  </head>
+  <body>
+    <main>
+      <select class="select" name="route" id="route">
+        <option selected="selected" disabled="disabled">Путь:</option>
+        <option class="path_to" value="из A в B" id="1">из A в B</option>
+        <option class="path_from" value="из B в A" id="2">из B в A</option>
+        <option class="path" value="из A в B и обратно в А" id="3">из A в B и обратно в А</option>
+      </select>
+
+      <label for="time">Выберите время</label>
+      <select name="time" id="time" class="select_from_to">
+        <option selected="selected" disabled="disabled">Время:</option>
+        <option class="from" value="from_1" id="1"></option>
+        <option class="from" value="from_2" id="2"></option>
+        <option class="from" value="from_3" id="3"></option>
+        <option class="from" value="from_4" id="4"></option>
+        <option class="from" value="from_5" id="5"></option>
+        <option class="from" value="from_6" id="6"></option>
+        <option class="to" value="to_1"></option>
+        <option class="to" value="to_2"></option>
+        <option class="to" value="to_3"></option>
+        <option class="to" value="to_4"></option>
+        <option class="to" value="to_5"></option>
+        <option class="to" value="to_6"></option>
+        <option class="to" value="to_7"></option>
+      </select>
+
+      <select class="route_from_to" name="time" id="time_from_to">
+        <option selected="selected" disabled="disabled">Время обратно:</option>
+        <option class="from_to" value="to_1"></option>
+        <option class="from_to" value="to_2"></option>
+        <option class="from_to" value="to_3"></option>
+        <option class="from_to" value="to_4"></option>
+        <option class="from_to" value="to_5"></option>
+        <option class="from_to" value="to_6"></option>
+        <option class="from_to" value="to_7"></option>
+      </select>
+
+      <label for="num">Количество билетов</label>
+      <input  class="input" id="num" />
+      <button type="submit" id="submit" onclick="price();">Посчитать</button>
+    </main>
+
+    <script type="text/javascript" src="/task-4/code.js"></script>
+  </body>
+</html>
